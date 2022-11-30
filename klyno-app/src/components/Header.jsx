@@ -4,9 +4,10 @@
 
 const Header = () => {
   return (
-    <div className="flex flex-col w-full  bg-blue-200  items-center justify-around">
+    <div className="flex flex-col w-full  bg-blue-200  items-center justify-around z-10">
 
       <div className="w-11/12 p-1 items-center justify-around flex flex-row">
+        
         <div>
           <h1 className="md:text-base text-xl font-bold">TOMAKOMAI <span className="md:text-base text-blue-500">CITY</span></h1>
         </div>

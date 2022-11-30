@@ -1,9 +1,9 @@
 import React from 'react'
-import Lang from './01-components/lang'
+import Lang from './01-components/Lang'
 
 const Home = () => {
   return (
-    <Lang/>
+    <Lang />
   )
 }
 
