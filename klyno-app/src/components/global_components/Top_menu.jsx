@@ -1,6 +1,6 @@
 import React from 'react'
 import Lang from './Lang'
-import Support_sm from './Support_sm'
+import Support_sm from './support_sm/Support_sm'
 
 const Top_menu = () => {
   return (
