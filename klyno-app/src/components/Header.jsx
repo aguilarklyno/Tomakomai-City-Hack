@@ -1,5 +1,5 @@
 // import React, {useState} from 'react'
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import {AiOutlineClose, AiOutlineMenu} from "react-icons/ai";
 
 const Header = () => {
@@ -9,7 +9,7 @@ const Header = () => {
       <div className="w-11/12 p-1 items-center justify-around flex flex-row">
         
         <div>
-          <h1 className="md:text-base text-xl font-bold">TOMAKOMAI <span className="md:text-base text-blue-500">CITY</span></h1>
+          <Link to="/" className="md:text-base text-xl font-bold">TOMAKOMAI <span className="md:text-base text-blue-500">CITY</span></Link>
         </div>
 
         <div className="m-4 md:block md:w-200px hidden ">

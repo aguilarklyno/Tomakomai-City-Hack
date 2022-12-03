@@ -1,12 +1,14 @@
 import React from 'react'
+import Info from './01-components/Info'
 import Lang from './01-components/Lang'
-import Pages from './01-components/Pages'
+import Support from './01-components/Support'
 
 const Home = () => {
   return (
     <>
       <Lang />
-      <Pages />
+      <Support />
+      <Info />
     </>
   )
 }
