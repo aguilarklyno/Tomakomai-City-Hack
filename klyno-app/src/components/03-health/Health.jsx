@@ -1,8 +1,11 @@
 import React from 'react'
+import Top_menu from '../global_components/Top_menu'
 
 const Health = () => {
   return (
-    <div>Health</div>
+    <>
+      <Top_menu/>
+    </>
   )
 }
 

@@ -1,12 +1,10 @@
 import React from 'react'
-import Lang from '../01-home/01-components/Lang'
-import Support from '../01-home/01-components/Support'
+import Top_menu from '../global_components/Top_menu'
 
 const Education = () => {
   return (
     <>
-      <Lang/>
-      <Support />
+      <Top_menu/>
       <div>教育だよ！！</div>
     </>
   )

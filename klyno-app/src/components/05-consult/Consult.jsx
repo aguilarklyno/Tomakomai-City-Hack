@@ -1,8 +1,12 @@
 import React from 'react'
+import Top_menu from '../global_components/Top_menu'
 
 const Consult = () => {
   return (
-    <div>Consult</div>
+    <>
+      <Top_menu/>
+      <div>Consult</div>
+    </>
   )
 }
 

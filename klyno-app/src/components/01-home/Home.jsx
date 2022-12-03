@@ -1,7 +1,7 @@
 import React from 'react'
 import Info from './01-components/Info'
-import Lang from './01-components/Lang'
-import Support from './01-components/Support'
+import Lang from '../global_components/Lang'
+import Support from '../global_components/Support'
 
 const Home = () => {
   return (

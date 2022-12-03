@@ -1,7 +1,8 @@
 import React from 'react'
-import Support_page_move from '../../Support_page_move';
-import img_01 from "../01-images/education.png"
-import img_02 from "../01-images/health.png"
+import Support_page_move from './Support_page_move';
+import img_01 from "../images/education.png"
+import img_02 from "../images/health.png"
+
 
 const Support = () => {
   return (

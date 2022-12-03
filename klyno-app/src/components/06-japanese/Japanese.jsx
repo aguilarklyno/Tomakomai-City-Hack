@@ -1,8 +1,12 @@
 import React from 'react'
+import Top_menu from '../global_components/Top_menu'
 
 const Japanese = () => {
   return (
-    <div>Japanese</div>
+    <>
+      <Top_menu/>
+      <div>Japanese</div>
+    </>
   )
 }
 
