@@ -1,4 +1,3 @@
-import React from 'react'
 import { useEffect } from 'react'
 
 export function useOnHoverOutside(flg, handler) {
@@ -15,6 +14,6 @@ export function useOnHoverOutside(flg, handler) {
         document.removeEventListener("mouseout", listener);
       };
     },
-    [ref,handler]
+    [flg,handler]
   );
 }
