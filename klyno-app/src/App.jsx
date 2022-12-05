@@ -7,8 +7,9 @@ import Home from './components/01-home/Home';
 
 // ----------------------Education------------------------
 import Education from './components/02-education/Education';
-import Students from './components/02-education/02-components/Students';
-import General from './components/02-education/02-components/General';
+  import Juken from './components/02-education/02-components/Juken';
+  import Shinro from './components/02-education/02-components/Shinro';
+  
 
 // ----------------------Health------------------------
 import Health from './components/03-health/Health';
@@ -30,6 +31,7 @@ import Multilang_mail from './components/08-multilang-mail/Multilang_mail';
 
 // ----------------------Disaster------------------------
 import Disaster from './components/09-disaster/Disaster';
+import Sodan from './components/02-education/02-components/Sodan';
 
 
 
@@ -43,9 +45,9 @@ function App() {
             <Route path="/" element={<Home />}/>
 
             <Route path="/education" element={<Education />}/>
-              <Route path="/education/students" element={<Students />}/>
-              <Route path="/education/general" element={<General />}/>
-              
+              <Route path="/education/Juken" element={<Juken />}/>
+              <Route path="/education/Shinro" element={<Shinro />}/>
+              <Route path="/education/Sodan" element={<Sodan/>} />
               
             <Route path="/health" element={<Health />}/>
             <Route path="/lifeinfo" element={<Lifeinfo />}/>

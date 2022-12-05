@@ -10,14 +10,11 @@ const Home = () => {
     <>
       <Lang />
       <Support />
-      <div className="flex justify-between w-10/12 mx-auto m-8">
+      <div className="flex flex-wrap justify-center w-10/12 mx-auto my-4">
         <Call />
         <Map />
-        
       </div>
-      
       <Info />
-
     </>
   )
 }
