@@ -8,8 +8,8 @@ const Support = () => {
   return (
     <>
       <div className='w-10/12  my-4 mx-auto flex justify-center items-center flex-wrap '>
-        <Support_page_move to={"/education"} type={ "学ぶ・参加する"}/>
         <Support_page_move to={"/health"} type={ "医療・子育て"}/>
+        <Support_page_move to={"/education"} type={ "学ぶ・参加する"}/>
         <Support_page_move to={"/lifeinfo"} type={ "生活情報"}/>
         <Support_page_move to={"/consult"} type={ "相談する"}/>
         <Support_page_move to={"/japanese"} type={ "日本語"}/>
